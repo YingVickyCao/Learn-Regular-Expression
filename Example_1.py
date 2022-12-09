@@ -4,4 +4,4 @@
 import re
 
 test_str = "the little cat cat in the hat hat."
-result = re.sub(r'(\w+) \1', r'\1', test_str)
+re.sub(r'(\w+) \1', r'\1', test_str)
