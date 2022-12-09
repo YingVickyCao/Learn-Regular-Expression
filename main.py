@@ -2,9 +2,9 @@
 
 import re
 
-test_str = "the little cat cat in the hat hat."
+test_str = "Hanmeimei is a girl"
 # the little cat in the hat.
-result = re.sub(r'(\w+) \1', r'\1', test_str)
+result = re.findall("r' a'", test_str)
 print(result)
 
 '''
